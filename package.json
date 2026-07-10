@@ -1,0 +1,18 @@
+{
+  "name": "whatsapp-auto-reply-bot",
+  "version": "1.0.0",
+  "description": "A WhatsApp bot that replies to messages using AI (Groq) for natural, human-like responses",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": ["whatsapp", "bot", "ai", "auto-reply"],
+  "license": "MIT",
+  "dependencies": {
+    "whatsapp-web.js": "^1.26.0",
+    "qrcode-terminal": "^0.12.0",
+    "groq-sdk": "^0.7.0",
+    "dotenv": "^16.4.5"
+  }
+}
